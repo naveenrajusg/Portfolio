@@ -1974,8 +1974,10 @@ pre code {
 .table-warning tbody + tbody {
 	border-color: #ffdf7e;
 }
-.skills__table{
+.skills__table, .skills__table>tbody, .skills__table>tbody>tr, .skills__table>tbody>tr>td {
 	table-layout: initial ;
+	width:auto;
+	border: 1px solid black;
 }
 .table-hover .table-warning:hover {
 	background-color: #ffe8a1;
